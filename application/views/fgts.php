@@ -148,7 +148,7 @@
 </section>
 <!-- Modal com formulário --->
 <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
+  <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
         <h5 class="modal-title" id="exampleModalLabel">Para receber a instruções digite seu e-mail</h5>
@@ -160,7 +160,7 @@
         <form id="" action="<?php echo base_url(); ?>public/assets/vendor/php-email-form-fgts/contact.php" method="post" role="form" class="php-email-form-fgts fgts">
           <div class="form-row">
             <div class="col-md-6 form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Seu nome" data-rule="minlen:4" data-msg="Seu nome deve conter no mínimo 4 caracteres"/>
+              <input type="text" name="name" class="form-control" id="name" placeholder="Seu nome" data-rule="minlen:4" data-msg="Seu nome deve conter no mínimo 4 caracteres" />
               <div class="validate"></div>
             </div>
             <div class="col-md-6 form-group">
@@ -169,20 +169,13 @@
             </div>
           </div>
           <div class="form-group">
-            <input type="email" class="form-control" name="email" id="email" placeholder="Seu e-mail" data-rule="email" data-msg="Por favor, insira um e-mail válido"/>
+            <input type="email" class="form-control" name="email" id="email" placeholder="Seu e-mail" data-rule="email" data-msg="Por favor, insira um e-mail válido" />
             <div class="validate"></div>
           </div>
-          <div class="mb-3">
-            <div class="loading">Enviando</div>
-            <div class="error-message">Erro, não conseguimos enviar sua mensagem, tente novamente mais tarde! :(</div>
-            <div class="sent-message" id="sent-message">O envio foi um sucesso, agradecemos seu contato! :)</div>
-          </div>
-          <div class="text-center"><button type="submit">Enviar mensagem</button></div>
+          <div class="text-center"><button class="btn_simulacao btn btn-primary" type="submit">Enviar mensagem</button></div>
         </form>
       </div>
       <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Fechar</button>
-        <button type="button" class="btn btn-primary">Fazer simulação</button>
       </div>
     </div>
   </div>
