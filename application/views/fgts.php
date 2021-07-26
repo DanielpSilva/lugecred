@@ -53,7 +53,7 @@
           bloqueio esse que pode chegar ao valor total do fundo a depender
           da contratação. E libera o valor da antecipação em sua conta no dia seguinte
         </p>
-        <button type="button" class="btn_simulacao btn btn-primary" data-toggle="modal" data-target="#exampleModal" data-whatever="@mdo">Solicitar empréstimo</button>
+        <button type="button" class="btn_simulacao btn btn-primary" data-toggle="modal" data-target="#exampleModal">Faça sua simulação</button>
       </div>
     </div>
   </div>
@@ -172,7 +172,7 @@
             <input type="email" class="form-control" name="email" id="email" placeholder="Seu e-mail" data-rule="email" data-msg="Por favor, insira um e-mail válido" />
             <div class="validate"></div>
           </div>
-          <div class="text-center"><button class="btn_simulacao btn btn-primary" type="submit">Enviar mensagem</button></div>
+          <div class="text-center"><button class="btn_simulacao btn btn-primary" type="submit" href="simulacao">Ver tutorial</button></div>
         </form>
       </div>
       <div class="modal-footer">
