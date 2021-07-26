@@ -139,7 +139,7 @@
              <li><i class="bx bx-check"></i> Antecipação de até 5 anos do benefício</li>
              <li><i class="bx bx-check"></i> Taxa de juros de 1,99% ao mês</li>
            </ul>
-           <a href="#saque" class="get-started-btn">Saiba mais</a>
+           <a href="fgts" class="get-started-btn">Saiba mais</a>
          </div>
 
        </div>

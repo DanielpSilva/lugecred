@@ -102,7 +102,7 @@
     </div>
     <ul class="faq-list">
       <li>
-        <a data-toggle="collapse" class="" href="#faq1">Onde posso baixar o aplivativo FGTS?<i class="icofont-simple-up"></i></a>
+        <a data-toggle="collapse" class="" href="#faq1">Onde posso baixar o aplicativo FGTS?<i class="icofont-simple-up"></i></a>
         <div id="faq1" class="collapse show" data-parent=".faq-list">
           <ul class="mt-3">
             <p>Se seu celular for android <a href="https://play.google.com/store/apps/details?id=br.gov.caixa.fgts.trabalhador">Clique aqui</a></p>
@@ -139,7 +139,7 @@
         <a data-toggle="collapse" href="#faq6" class="collapsed">Quantas parcelas eu posso antecipar nessa operação<i class="icofont-simple-up"></i></a>
         <div id="faq6" class="collapse" data-parent=".faq-list">
           <p>
-            Atualmente você pode antecipar ate “4” parcelas do saque de aniversario.
+            Atualmente você pode antecipar ate 5 parcelas do saque de aniversario.
           </p>
         </div>
       </li>

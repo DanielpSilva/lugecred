@@ -39,7 +39,7 @@
  $mail->ClearAllRecipients();
  // Exibe uma mensagem de resultado do envio (sucesso/erro)
  if ($enviado) {
-   echo site_url('https://lugecred.com.br/simulacao');
+  header("Location:../../../../simulacao");
  } else {
    echo "Não foi possível enviar o e-mail."; 
  //  echo "Erro: " . $mail->ErrorInfo;
