@@ -14,7 +14,7 @@
 
       <div class="row">
 
-        <div class="col-lg-8 entries">
+        <div class="col-lg-8 entries alos">
 
           <article class="entry">
 
