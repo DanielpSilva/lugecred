@@ -44,50 +44,9 @@
                 eles falam por lá.
                 <br> Em três passos você consegue descobrir se está fazendo um bom negócio e pode seguir tranquilo com a sua escolha.
               </p>
-              <!-- <div class="read-more">
-              <a href="blog-single.html">Read More</a>
-            </div> -->
             </div>
 
           </article>
-          <!-- MODELO DE RESUMO DE POST -->
-          <!-- 
-          <article class="entry">
-
-            <div class="entry-img">
-              <img src="assets/img/blog-post-2.jpg" alt="" class="img-fluid">
-            </div>
-
-            <h2 class="entry-title">
-              <a href="blog-single.html">Nisi magni odit consequatur autem nulla dolorem</a>
-            </h2>
-
-            <div class="entry-meta">
-              <ul>
-                <li class="d-flex align-items-center"><i class="icofont-user"></i> <a href="blog-single.html">John
-                    Doe</a></li>
-                <li class="d-flex align-items-center"><i class="icofont-wall-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">Jan 1, 2020</time></a></li>
-                <li class="d-flex align-items-center"><i class="icofont-comment"></i> <a href="blog-single.html">12
-                    Comments</a></li>
-              </ul>
-            </div>
-
-            <div class="entry-content">
-              <p>
-                Incidunt voluptate sit temporibus aperiam. Quia vitae aut sint ullam quis illum voluptatum et. Quo
-                libero rerum voluptatem pariatur nam.
-                Ad impedit qui officiis est in non aliquid veniam laborum. Id ipsum qui aut. Sit aliquam et quia
-                molestias laboriosam. Tempora nam odit omnis eum corrupti qui aliquid excepturi molestiae. Facilis et
-                sint quos sed voluptas. Maxime sed tempore enim omnis non alias odio quos distinctio.
-              </p>
-              <div class="read-more">
-                <a href="blog-single.html">Read More</a>
-              </div>
-            </div>
-
-          </article>
-          -->
-          <!-- End blog entry -->
 
           <article class="entry">
 
@@ -241,3 +200,6 @@
   </section><!-- End Blog Section -->
 
 </main><!-- End #main -->
+<a href="https://api.whatsapp.com/send?phone=551236005816&text=Ol%C3%A1!" class="float" target="_blank">
+  <i class="bx bxl-whatsapp my-float"></i>
+</a>

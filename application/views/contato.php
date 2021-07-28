@@ -26,8 +26,8 @@
       </div>
     </div>
     <svg id="svg-inicio" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1400.64 1268.08">
-         <path id="Forma_1" data-name="Forma 1" class="cls-2" d="M0,946.08c49.88,45.72,150.37,124.42,295.44,151,176.66,32.41,321.65-30.36,388.8-60.48,229.56-103,256.6-236.28,477.36-308.88,98.6-32.42,185.55-35.78,238.48-34.56q.29,287.4.56,574.8H0Z" transform="translate(0)" />
-     </svg>
+      <path id="Forma_1" data-name="Forma 1" class="cls-2" d="M0,946.08c49.88,45.72,150.37,124.42,295.44,151,176.66,32.41,321.65-30.36,388.8-60.48,229.56-103,256.6-236.28,477.36-308.88,98.6-32.42,185.55-35.78,238.48-34.56q.29,287.4.56,574.8H0Z" transform="translate(0)" />
+    </svg>
   </section>
   <section id="faq" class="faq section-bg">
     <div class="container" data-aos="fade-up">
@@ -80,7 +80,7 @@
           <a data-toggle="collapse" href="#faq5" class="collapsed">Preciso ir até o banco para fazer empréstimo consignado? <i class="icofont-simple-up"></i></a>
           <div id="faq5" class="collapse" data-parent=".faq-list">
             <p>
-            Não precisa, a contratação é feita digitalmente cumprindo todos os protocolos de segurança exigidos pelos bancos, nossos especialistas informam cada etapa do processo para não haver novas dúvidas.
+              Não precisa, a contratação é feita digitalmente cumprindo todos os protocolos de segurança exigidos pelos bancos, nossos especialistas informam cada etapa do processo para não haver novas dúvidas.
             </p>
           </div>
         </li>
@@ -89,7 +89,7 @@
           <a data-toggle="collapse" href="#faq6" class="collapsed">Posso ter mais de um empréstimo consignado? <i class="icofont-simple-up"></i></a>
           <div id="faq6" class="collapse" data-parent=".faq-list">
             <p>
-             Pode sim, você tem 40% de margem para usar em contratos, sendo 35% para empréstimo consignado e 5% disponibilizado exclusivamente para o cartão consignado.
+              Pode sim, você tem 40% de margem para usar em contratos, sendo 35% para empréstimo consignado e 5% disponibilizado exclusivamente para o cartão consignado.
             </p>
           </div>
         </li>
@@ -168,3 +168,6 @@
     </div>
   </section>
   <!-- End Contact Section -->
+  <a href="https://api.whatsapp.com/send?phone=551236005816&text=Ol%C3%A1!" class="float" target="_blank">
+    <i class="bx bxl-whatsapp my-float"></i>
+  </a>

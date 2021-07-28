@@ -220,6 +220,9 @@
        </div>
      </div>
    </section>
+   <a href="https://api.whatsapp.com/send?phone=551236005816&text=Ol%C3%A1!" class="float" target="_blank">
+        <i class="bx bxl-whatsapp my-float"></i>
+    </a>
    <!-- End Features Section -->
    <!-- ======= Why Us Section ========
      <section class="why-us section-bg" data-aos="fade-up" date-aos-delay="200">

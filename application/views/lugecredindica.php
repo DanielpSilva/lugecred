@@ -10,15 +10,15 @@
 
   <section class="lugeindica justify-content-center d-flex container">
     <div class="row">
-    <div class="container col-md-6 mx-auto">
-      <div class="section-title">
-        <h2 class="text-left">Um projeto que tem o objetivo de ajudar você em qualquer ocasião!</h2>
-        <p class="text-left"> Veja aqui algumas empresas que temos o prazer de indicar para prestar qualquer tipo de serviço que desejar, nossa ação busca ajudar nossos clientes a ter acesso a diversos serviços com facilidade de comodidade.</p>
+      <div class="container col-md-6 mx-auto">
+        <div class="section-title">
+          <h2 class="text-left">Um projeto que tem o objetivo de ajudar você em qualquer ocasião!</h2>
+          <p class="text-left"> Veja aqui algumas empresas que temos o prazer de indicar para prestar qualquer tipo de serviço que desejar, nossa ação busca ajudar nossos clientes a ter acesso a diversos serviços com facilidade de comodidade.</p>
+        </div>
       </div>
-    </div>
-    <div class="col-md-6 my-auto ">
-      <img src="<?php echo base_url(); ?>public/assets/img/svg/indica.svg" class="img-fluid" alt="Cartão consignado">
-    </div>
+      <div class="col-md-6 my-auto ">
+        <img src="<?php echo base_url(); ?>public/assets/img/svg/indica.svg" class="img-fluid" alt="Cartão consignado">
+      </div>
     </div>
   </section>
   <div class="container linha">
@@ -28,7 +28,7 @@
     <div class="container-fluid">
       <div class="row justify-content-center">
         <div class="card-indica card text-center col-md-3 my-4 mx-4">
-          <img class="card-img-top" src="<?php echo base_url(); ?>public/assets/img/lugeindica/smartfix.jpeg" alt="Smart Fix"/>
+          <img class="card-img-top" src="<?php echo base_url(); ?>public/assets/img/lugeindica/smartfix.jpeg" alt="Smart Fix" />
           <div class="card-body">
             <h5 class="card-title">Smart Fix</h5>
             <p class="card-text">
@@ -38,7 +38,7 @@
           </div>
         </div>
         <div class="card-indica card text-center col-md-3 my-4 mx-4">
-          <img class="card-img-top img-fluid" src="<?php echo base_url(); ?>public/assets/img/lugeindica/pedracmarmoraria.jpeg" alt="Pedrac Marmoraria"/>
+          <img class="card-img-top img-fluid" src="<?php echo base_url(); ?>public/assets/img/lugeindica/pedracmarmoraria.jpeg" alt="Pedrac Marmoraria" />
           <div class="card-body">
             <h5 class="card-title">Pedrac Marmoraria</h5>
             <p class="card-text">
@@ -48,7 +48,7 @@
           </div>
         </div>
         <div class="card-indica card text-center col-md-3 my-4 mx-4">
-          <img class="card-img-top img-fluid" src="<?php echo base_url(); ?>public/assets/img/lugeindica/deliciasdaci.jpeg" alt="Delicias da Ci"/>
+          <img class="card-img-top img-fluid" src="<?php echo base_url(); ?>public/assets/img/lugeindica/deliciasdaci.jpeg" alt="Delicias da Ci" />
           <div class="card-body">
             <h5 class="card-title">Delicias da Ci</h5>
             <p class="card-text">
@@ -58,7 +58,7 @@
           </div>
         </div>
         <div class="card-indica card text-center col-md-3 my-4 mx-4">
-          <img class="card-img-top img-fluid" src="<?php echo base_url(); ?>public/assets/img/lugeindica/brunaferreira.jpg" alt="Bruna Ferreira"/>
+          <img class="card-img-top img-fluid" src="<?php echo base_url(); ?>public/assets/img/lugeindica/brunaferreira.jpg" alt="Bruna Ferreira" />
           <div class="card-body">
             <h5 class="card-title">Bruna Ferreira</h5>
             <p class="card-text">
@@ -68,7 +68,7 @@
           </div>
         </div>
         <div class="card-indica card text-center col-md-3 my-4 mx-4">
-          <img class="card-img-top img-fluid" src="<?php echo base_url(); ?>public/assets/img/lugeindica/kronus.jpg" alt="Kronus Tecnologia"/>
+          <img class="card-img-top img-fluid" src="<?php echo base_url(); ?>public/assets/img/lugeindica/kronus.jpg" alt="Kronus Tecnologia" />
           <div class="card-body">
             <h5 class="card-title">Kronus Tecnologia</h5>
             <p class="card-text">
@@ -80,3 +80,6 @@
       </div>
     </div>
   </section>
+  <a href="https://api.whatsapp.com/send?phone=551236005816&text=Ol%C3%A1!" class="float" target="_blank">
+    <i class="bx bxl-whatsapp my-float"></i>
+  </a>

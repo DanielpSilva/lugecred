@@ -1807,8 +1807,8 @@ section {
 --------------------------------------------------------------*/
 
 .simulacao {
-    background-color: #140152;
-    color: white;
+    background-color: #fff;
+    color: rgb(56, 56, 56);
 }
 
 .simulacao h2 {
@@ -1862,9 +1862,12 @@ section {
 
 .btn_simulacao {
     border-radius: 50px;
+    background-color: #F3A712;
+    color: #fff;
 }
 
 .btn_simulacao:hover {
+    background-color: #F3A712;
     background-color: #F3A712;
 }
 
@@ -2406,28 +2409,6 @@ section {
     font-size: 14px;
 }
 
-.float {
-    left: 25px;
-    position: fixed;
-    width: 60px;
-    height: 60px;
-    bottom: 40px;
-    background-color: #25d366;
-    color: #FFF;
-    border-radius: 50px;
-    text-align: center;
-    font-size: 30px;
-    z-index: 999999;
-}
-
-.float:hover {
-    color: #FFF;
-}
-
-.my-float {
-    margin-top: 16px;
-}
-
 
 /*--------------------------------------------------------------
 # LugeCred Indica
@@ -2672,7 +2653,7 @@ section {
     height: 40px;
     border-radius: 3px;
     right: 50px;
-    bottom: 100px;
+    bottom: 40px;
     background: #140152;
     color: #fff;
     transition: display 0.5s ease-in-out;
@@ -2694,4 +2675,46 @@ section {
 
 #exampleModal {
     z-index: 10000000;
+}
+
+.float {
+    left: 25px;
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    background-color: #25d366;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 999999;
+}
+
+.float:hover {
+    color: #FFF;
+}
+
+.my-float {
+    margin-top: 16px;
+}
+
+.float-simulacao {
+    left: 25px;
+    position: fixed;
+    bottom: 40px;
+    color: #FFF;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    z-index: 999999;
+    border: none;
+}
+
+.float:hover {
+    color: #FFF;
+}
+
+.my-float {
+    margin-top: 16px;
 }

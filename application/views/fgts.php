@@ -3,29 +3,28 @@
     <div class="section-title">
       <h2>Empréstimo com garantia FGTS</h2>
       <p>O saque aniversário é uma opção oferecida ao trabalhador, em alternativa à sistemática de
-        Saque por Rescisão de contrato de trabalho, que permite a retirada do saldo da conta do FGTS, anualmente, no mês do seu aniversário</p>
+        Saque por Rescisão de contrato de trabalho, que permite a retirada de parte saldo do seu FGTS, anualmente, no mês do seu aniversário</p>
     </div>
     <div class="row">
       <div class="col-md-6 my-auto">
         <img src="<?php echo base_url(); ?>public/assets/img/svg/fgts.svg" class="img-fluid" alt="FGTS">
       </div>
       <div class="col-md-5 pt-4">
-        <p>
-          O Banco Safra em Parceria com a CAIXA ECONOMICA FEDERAL, está liberando para você sacar até 5 vezes seu SAQUE ANIVERSÁRIO
-        </p>
         <p class="text-justify">Para você ter direito ao saque aniversário, é necessário fazer a opção por essa modalidade nos canais digitais no fundo de garantia</p>
         <p>
           O trabalhador que fizer a opção poderá sacar um percentual do saldo do FGTS, acrescido de uma parcela adicional, anualmente.
         </p>
-
+        <p>
+          O Banco Safra em Parceria com a CAIXA ECONOMICA FEDERAL, está liberando para você sacar até 5 vezes seu SAQUE ANIVERSÁRIO
+        </p>
         <ul>
-          <li><i class="icofont-check"></i> Contratação 100% digital
+          <li>Contratação 100% digital
           </li>
-          <li><i class="icofont-check"></i> Contas ativas e inativas.
+          <li>Contas ativas e inativas.
           </li>
-          <li><i class="icofont-check"></i> Sem descontos mensais.
+          <li>Sem descontos mensais.
           </li>
-          <li><i class="icofont-check"></i> Dinheiro na conta em até 24h.
+          <li>Dinheiro na conta em até 24h.
           </li>
         </ul>
       </div>
@@ -71,21 +70,21 @@
       <div class="col-md-5 pt-4">
         <h3>Veja as vantagens dessa nova oportunidade que nós estamos proporcionando para você!</h3>
         <ul class="mt-3">
-          <li><i class="icofont-check"></i> Economia
+          <li> Economia
           </li>
-          <li><i class="icofont-check"></i> Taxa de juros atrativa
+          <li> Taxa de juros atrativa
           </li>
-          <li><i class="icofont-check"></i> Praticidade
+          <li> Praticidade
           </li>
-          <li><i class="icofont-check"></i> Pagamento automático e em parcela única
+          <li> Pagamento automático e em parcela única
           </li>
-          <li><i class="icofont-check"></i> Rapidez
+          <li> Rapidez
           </li>
-          <li><i class="icofont-check"></i> Dinheiro na conta no dia seguinte à contratação
+          <li> Dinheiro na conta no dia seguinte à contratação
           </li>
-          <li><i class="icofont-check"></i> Conveniência
+          <li> Conveniência
           </li>
-          <li><i class="icofont-check"></i> Não pesa no orçamento pois não tem prestação mensal
+          <li> Não pesa no orçamento pois não tem prestação mensal
           </li>
         </ul>
       </div>
@@ -105,8 +104,8 @@
         <a data-toggle="collapse" class="" href="#faq1">Onde posso baixar o aplicativo FGTS?<i class="icofont-simple-up"></i></a>
         <div id="faq1" class="collapse show" data-parent=".faq-list">
           <ul class="mt-3">
-            <p>Se seu celular for android <a href="https://play.google.com/store/apps/details?id=br.gov.caixa.fgts.trabalhador">Clique aqui</a></p>
-            <p>Se for Iphone(IOS) <a href="https://apps.apple.com/br/app/fgts/id1038441027">Clique aqui</a></p>
+            <p style="color: #F3A712;"><Strong>Android</Strong><a href="https://play.google.com/store/apps/details?id=br.gov.caixa.fgts.trabalhador">Clique aqui</a></p>
+            <p style="color: #F3A712;"><strong>Iphone(IOS)</strong><a href="https://apps.apple.com/br/app/fgts/id1038441027">Clique aqui</a></p>
           </ul>
         </div>
       </li>
@@ -132,7 +131,7 @@
       <li>
         <a data-toggle="collapse" href="#faq5" class="collapsed">Como saber o meu saldo de FGTS<i class="icofont-simple-up"></i></a>
         <div id="faq5" class="collapse" data-parent=".faq-list">
-          <p>Você consegue saber o saldo do FGTS através do App FGTS (pode ser baixado gratuitamente na APP Store ou Google Play) ou pelo site do FGTS na Caixa Econômica Federal. La você consegue consultar o valor disponível para saque. </p>
+          <p>Você consegue saber o saldo do FGTS através do App FGTS (pode ser baixado gratuitamente na APP Store ou Google Play) ou pelo site da Caixa Econômica Federal. La você consegue consultar o valor disponível para saque. </p>
         </div>
       </li>
       <li>
@@ -151,26 +150,22 @@
   <div class="modal-dialog modal-dialog-centered" role="document">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Para receber a instruções digite seu e-mail</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Para realizar a simulação coloque seu nome e Whatsapp</h5>
         <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
       </div>
       <div class="modal-body">
-        <form id="" action="<?php echo base_url(); ?>public/assets/vendor/php-email-form-fgts/contact.php" method="post" role="form" class="php-email-form-fgts fgts">
+        <form id="contato-fgts" action="<?php echo base_url(); ?>public/assets/vendor/php-email-form-fgts/contact.php" method="post" role="form" class="php-email-form-fgts fgts">
           <div class="form-row">
             <div class="col-md-6 form-group">
               <input type="text" name="name" class="form-control" id="name" placeholder="Seu nome" data-rule="minlen:4" data-msg="Seu nome deve conter no mínimo 4 caracteres" />
               <div class="validate"></div>
             </div>
             <div class="col-md-6 form-group">
-              <input class="form-control" name="telefone" data-rule="required" data-msg="O campo telefone é obrigatório" placeholder="Seu telefone"></input>
+              <input class="form-control" name="telefone" data-rule="required" data-msg="O campo telefone é obrigatório" placeholder="Seu telefone (Whatsapp)"></input>
               <div class="validate"></div>
             </div>
-          </div>
-          <div class="form-group">
-            <input type="email" class="form-control" name="email" id="email" placeholder="Seu e-mail" data-rule="email" data-msg="Por favor, insira um e-mail válido" />
-            <div class="validate"></div>
           </div>
           <div class="text-center"><button class="btn_simulacao btn btn-primary" type="submit" href="simulacao">Ver tutorial</button></div>
         </form>
@@ -181,3 +176,7 @@
   </div>
 </div>
 <!-- Modal com formulário --->
+<a class="float-simulacao" target="_blank">
+<button type="button" class="btn_simulacao btn" data-toggle="modal" data-target="#exampleModal">Simulação</button>
+</a>
+
