@@ -1815,6 +1815,11 @@ section {
     color: #f3a712;
 }
 
+#contratar {
+    background-color: #140152;
+    color: #fff;
+}
+
 .started-simulacao {
     background: red;
     display: inline-block;

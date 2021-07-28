@@ -48,7 +48,7 @@
         <img src="<?php echo base_url(); ?>public/assets/img/fgts/autoriza-banco.gif" class="img-fluid gif-fgts" alt="Autorizando bancos a consultarem">
       </div>
       <div class="col-md-5 col-sm-6 col-6 pt-4 passo my-auto" data-aos="fade-left">
-        <h4 style="color: #f3a712;">Altorizando bancos 3/5</h4>
+        <h4 style="color: #f3a712;">Autorizando bancos 3/5</h4>
         <ul>
           <li> Na tela inicial clique em autorizar bancos a consultarem seu FGTS</li>
           <li> Selecione o Empréstimo Saque Aniversário</li>
@@ -99,33 +99,3 @@
     </div>
   </div>
 </div>
-<!-- Modal com formulário --->
-<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog" role="document">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Enviar simulação</h5>
-        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-          <span aria-hidden="true">&times;</span>
-        </button>
-      </div>
-      <div class="modal-body">
-        <form>
-          <div class="form-group">
-            <label for="recipient-name" class="col-form-label">Recipient:</label>
-            <input type="text" class="form-control" id="recipient-name">
-          </div>
-          <div class="form-group">
-            <label for="message-text" class="col-form-label">Message:</label>
-            <textarea class="form-control" id="message-text"></textarea>
-          </div>
-        </form>
-      </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Send message</button>
-      </div>
-    </div>
-  </div>
-</div>
-<!-- Modal com formulário --->

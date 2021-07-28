@@ -32,7 +32,7 @@
   </div>
 </div>
 <!-- Chamada para simulação -->
-<div class="info_ctt container-fluid simulacao" id="simulacao">
+<div class="info_ctt container-fluid simulacao" id="contratar">
   <div class="container">
     <div class="text-center">
       <h2>Como contratar</h2>
@@ -119,7 +119,7 @@
       <li>
         <a data-toggle="collapse" href="#faq3" class="collapsed">Como funciona o empréstimo<i class="icofont-simple-up"></i></a>
         <div id="faq3" class="collapse" data-parent=".faq-list">
-          <p>O empréstimo consiste na antecipação do saque de aniversario do FGTS, ou seja todo trabalhador que tem vinculo trabalhista através da CLT. O cliente que se encaixa nesse parâmetro tem o direito de antecipar ate 4 parcelas, no qual não tem nenhum desconto mensal, descontando apenas 1 vez a cada ano, no vencimento do saque-aniversario. </p>
+          <p>O empréstimo consiste na antecipação do saque de aniversario do FGTS, ou seja todo trabalhador que tem vinculo trabalhista através da CLT. O cliente que se encaixa nesse parâmetro tem o direito de antecipar até 5 parcelas, no qual não tem nenhum desconto mensal, descontando apenas 1 vez a cada ano, no vencimento do saque-aniversario. </p>
         </div>
       </li>
       <li>
