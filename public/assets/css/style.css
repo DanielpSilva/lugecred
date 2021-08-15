@@ -327,7 +327,7 @@ h6,
 
 #svg-inicio {
     bottom: 0;
-    width: 100%;
+    width: 100vw;
     position: absolute;
     z-index: 1;
 }

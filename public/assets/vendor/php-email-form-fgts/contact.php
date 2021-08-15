@@ -16,9 +16,9 @@
  // DADOS DO REMETENTE
  $mail->Sender = "site@lugecred.com.br"; // Conta de email existente e ativa em seu domínio
  $mail->From = "site@lugecred.com.br"; // Sua conta de email que será remetente da mensagem
- $mail->FromName = "Contato Site"; // Nome da conta de email
+ $mail->FromName = "Contato Site - FGTS"; // Nome da conta de email
  // DADOS DO DESTINATÁRIO
- $mail->AddAddress('atendimento@lugecred.com.br', 'Contato - Site'); // Define qual conta de email receberá a mensagem
+ $mail->AddAddress('atendimento@lugecred.com.br', 'Contato Site - FGTS'); // Define qual conta de email receberá a mensagem
  //$mail->AddAddress('recebe2@dominio.com.br'); // Define qual conta de email receberá a mensagem
  //$mail->AddCC('copia@dominio.net'); // Define qual conta de email receberá uma cópia
  //$mail->AddBCC('copiaoculta@dominio.info'); // Define qual conta de email receberá uma cópia oculta
@@ -29,9 +29,11 @@
  $mail->Subject  = "Formulário FGTS"; // Assunto da mensagem
  $mail->Body .= " Nome: ".$_POST['name']."
 "; // Texto da mensagem
- $mail->Body .= " E-mail: ".$_POST['email']." 
-"; // Texto da mensagem
  $mail->Body .= " Telefone: ".$_POST['telefone']."
+"; // Texto da mensagem
+ $mail->Body .= " Assunto: ".$_POST['assunto']."
+"; // Texto da mensagem
+ $mail->Body .= " Mensagem: ".nl2br($_POST['mensagem'])."
 "; // Texto da mensagem
  // ENVIO DO EMAIL
  $enviado = $mail->Send();
