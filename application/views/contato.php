@@ -6,15 +6,6 @@
     </div>
   </section>
   <section id="hero-no-slider" class="d-flex">
-    <!--   <div class="mt-5 pull-left my-auto col-lg-6" data-aos-delay="100">
-         <h2 class="mt-5 text-justify-left" style="color: #140152;">A solução que você precisa</h2>
-     </div>
-     <div class="my-auto">
-         <img class="finance" src="<?php echo base_url(); ?>public/assets/img/svg/finance.svg" alt="Gráfico">
-     </div>
-     <svg id="svg-inicio" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1400.64 1268.08">
-         <path id="Forma_1" data-name="Forma 1" class="cls-2" d="M0,946.08c49.88,45.72,150.37,124.42,295.44,151,176.66,32.41,321.65-30.36,388.8-60.48,229.56-103,256.6-236.28,477.36-308.88,98.6-32.42,185.55-35.78,238.48-34.56q.29,287.4.56,574.8H0Z" transform="translate(0)" />
-     </svg>-->
     <div class="container ini">
       <div class="row" data-aos="fade-up">
         <div class="finance mobile-hide col-md-6 order-2 order-md-2">
@@ -25,9 +16,6 @@
         </div>
       </div>
     </div>
-    <svg id="svg-inicio" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1400.64 1268.08">
-      <path id="Forma_1" data-name="Forma 1" class="cls-2" d="M0,946.08c49.88,45.72,150.37,124.42,295.44,151,176.66,32.41,321.65-30.36,388.8-60.48,229.56-103,256.6-236.28,477.36-308.88,98.6-32.42,185.55-35.78,238.48-34.56q.29,287.4.56,574.8H0Z" transform="translate(0)" />
-    </svg>
   </section>
   <section id="faq" class="faq section-bg">
     <div class="container" data-aos="fade-up">

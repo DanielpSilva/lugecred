@@ -2,6 +2,14 @@
   //AUTOR: Daniel Pereira da Silva
  // Adiciona o arquivo class.phpmailer.php - você deve especificar corretamente o caminho da pasta com o este arquivo.
  require_once("class.phpmailer.php");
+// Cria variáveis
+ if ((isset($_POST['email']) && !empty(trim($_POST['email'])))) {
+
+	$name = !empty($_POST['name']) ? $_POST['name'] : 'Não informado';
+	$email = $_POST['email'];
+	$telefone = !empty($_POST['telefone']) ? utf8_decode($_POST['telefone']) : 'Não informado';
+	$data = date('d/m/Y H:i:s');
+
  // Inicia a classe PHPMailer
  $mail = new PHPMailer();
  // DEFINIÇÃO DOS DADOS DE AUTENTICAÇÃO - Você deve auterar conforme o seu domínio!
@@ -26,23 +34,32 @@
  $mail->IsHTML(true); // Define que o e-mail será enviado como HTML
  $mail->CharSet = 'utf-8'; // Charset da mensagem (opcional)
  // DEFINIÇÃO DA MENSAGEM
- $mail->Subject  = "Formulário FGTS"; // Assunto da mensagem
- $mail->Body .= " Nome: ".$_POST['name']."
-"; // Texto da mensagem
- $mail->Body .= " Telefone: ".$_POST['telefone']."
-"; // Texto da mensagem
- $mail->Body .= " Assunto: ".$_POST['assunto']."
-"; // Texto da mensagem
- $mail->Body .= " Mensagem: ".nl2br($_POST['mensagem'])."
-"; // Texto da mensagem
+ $mail->Subject  = "Formulário FGTS"; 
+ // Assunto da mensagem
+ $mail->Body = "Nome: {$name}<br>
+          Email: {$email}<br>
+          Telefone: {$telefone}<br>
+          Data/hora: {$data}";
+ $mail->Body .= " Nome: ".$_POST['name'].""; 
+ // Texto da mensagem
+ $mail->Body .= " E-mail: ".$_POST['email']."";
+  // Texto da mensagem
+  $mail->Body .= " E-mail: ".$_POST['telefone']."";
+  // Texto da mensagem
+ $mail->Body = " Assunto: Tela FGTS"; 
+ // Texto da mensagem
+ $mail->Body .= " Mensagem: Captação de Lead da tela FGTS"; 
+ // Texto da mensagem
  // ENVIO DO EMAIL
  $enviado = $mail->Send();
  // Limpa os destinatários e os anexos
  $mail->ClearAllRecipients();
  // Exibe uma mensagem de resultado do envio (sucesso/erro)
- if ($enviado) {
-  header("Location:../../../../simulacao");
- } else {
-   echo "Não foi possível enviar o e-mail."; 
- //  echo "Erro: " . $mail->ErrorInfo;
- }
+ if ($mail->send()) {
+  echo 'Email enviado com sucesso.';
+} else {
+  echo 'Email não enviado.';
+}
+} else {
+echo 'Não enviado: informar o email e a mensagem.';
+}

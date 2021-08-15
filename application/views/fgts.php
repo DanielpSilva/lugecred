@@ -159,15 +159,20 @@
         <form id="contato-fgts" action="<?php echo base_url(); ?>public/assets/vendor/php-email-form-fgts/contact.php" method="post" role="form" class="php-email-form-fgts fgts">
           <div class="form-row">
             <div class="col-md-6 form-group">
-              <input type="text" name="name" class="form-control" id="name" placeholder="Seu nome" data-rule="minlen:4" data-msg="Seu nome deve conter no mínimo 4 caracteres" />
+              <input type="text" id="nome" name="name" class="form-control" id="name" placeholder="Seu nome" data-rule="minlen:4" data-msg="Seu nome deve conter no mínimo 4 caracteres" />
               <div class="validate"></div>
             </div>
             <div class="col-md-6 form-group">
-              <input class="form-control" name="telefone" data-rule="required" data-msg="O campo telefone é obrigatório" placeholder="Seu telefone (Whatsapp)"></input>
+              <input class="form-control" id="telefone" name="telefone" data-rule="required" data-msg="O campo telefone é obrigatório" placeholder="Seu telefone (Whatsapp)"></input>
+              <div class="validate"></div>
+            </div>
+            <div class="col-md-12 form-group">
+              <input class="form-control" id="email" name="email" data-rule="required" data-msg="O campo email é obrigatório" placeholder="Seu e-mail"></input>
               <div class="validate"></div>
             </div>
           </div>
-          <div class="text-center"><button class="btn_simulacao btn btn-primary" type="submit" href="simulacao">Ver tutorial</button></div>
+          <button class="btn_simulacao btn btn-primary" style="background-color: #140152;" type="submit" href="simulacao"><a style="color: #fff;" href="https://bit.ly/linkmodalfgts">Solicitar</a></button>
+          <button class="btn_simulacao btn btn-primary" type="submit" href="simulacao">Entenda o passo a passo</button>
         </form>
       </div>
       <div class="modal-footer">

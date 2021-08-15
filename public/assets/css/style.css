@@ -68,11 +68,6 @@ h6,
     max-height: 55px;
 }
 
-.fr-inicio {
-    font-size: 60px;
-    font-weight: 500;
-}
-
 
 /*--------------------------------------------------------------
 # Menu
@@ -315,14 +310,12 @@ h6,
 # Hero
 --------------------------------------------------------------*/
 
-#hero-no-slider {
+#home {
     width: 100%;
-    height: 70vh;
-    overflow: hidden;
-    position: relative;
     text-align: center;
     padding: 0;
     margin: 0;
+    margin-top: 85px;
 }
 
 #svg-inicio {
@@ -332,24 +325,35 @@ h6,
     z-index: 1;
 }
 
-#hero-no-slider h2 {
+.home .container .row h1 {
+    font-size: 65px;
+    color: #140152;
+}
+
+.home .container .row p {
+    color: #140152;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.home h2 {
     color: #fff;
     margin-bottom: 15px;
     font-size: 48px;
     font-weight: 700;
 }
 
-#hero-no-slider p {
+.home p {
     color: #fff;
 }
 
 @media (max-width: 575px) {
-    #hero-no-slider h2 {
+    #home h2 {
         font-size: 30px;
     }
 }
 
-.ini {
+.home {
     z-index: 9999;
 }
 
@@ -361,13 +365,17 @@ h6,
 .btn_simulacao_home {
     border-radius: 50px;
     background-color: #140152;
-    color: #F3A712;
+    color: #fff;
     border: none;
+    font-size: 20px;
+}
+
+.btn_simulacao_home a {
+    color: #fff;
 }
 
 .btn_simulacao_home:hover {
     background-color: #F3A712;
-    color: #140152;
 }
 
 
@@ -1846,32 +1854,11 @@ section {
     }
 }
 
-
-/*#passo_01 {
-    display: ;
-}
-
-#passo_03 {
-    display: ;
-}
-
-#passo_02 {
-    display: ;
-}
-
-#passo_04 {
-    display: ;
-}
-
-#passo_05 {
-    display: ;
-}
-*/
-
 .btn_simulacao {
     border-radius: 50px;
     background-color: #F3A712;
     color: #fff;
+    border: none;
 }
 
 .btn_simulacao:hover {
@@ -1885,7 +1872,7 @@ section {
 --------------------------------------------------------------*/
 
 .modal {
-    background-color: #fdf7a623;
+    background-color: #c9c9c923;
 }
 
 .form-control {

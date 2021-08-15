@@ -80,13 +80,12 @@
             </div>
             <nav class="nav-menu float-right d-none d-lg-block my-auto" id="menu" style="color: black;">
                 <ul>
-                    <li class="active"><a href="home">Início</a></li>
-                    <li><a href="fgts">FGTS</a></li>
+                    <li class="active"><a href="home">Início</a></li>>
                     <li><a href="sobre">Sobre nós</a></li>
                     <li><a href="certificacoes">Certificações</a></li>
                     <li><a href="blog">Blog</a></li>
                     <li><a href="contato">Contate-nos</a></li>
-                    <li><a class="text-warning" href="lugecredindica">LugeCred Indica</a></li>
+                    <li><a class="text-warning" href="fgts">Saque FGTS</a></li>
                 </ul>
             </nav>
             <!-- .nav-menu -->

@@ -1,19 +1,15 @@
  <!-- ======= Hero No Slider Section ======= -->
- <section>
+
+ <section id="home" class="home d-flex">
    <div class="container">
-     <div class="d-flex justify-content-between align-items-center">
-     </div>
-   </div>
- </section>
- <section id="hero-no-slider" class="d-flex">
-   <div class="container ini">
      <div class="row">
-       <div class="finance mobile-hide col-md-6 order-2 order-md-2">
-         <img style="whidth: 700px;" src="<?php echo base_url(); ?>public/assets/img/4.png" class="img-fluid" alt="">
+       <div class="finance mobile-hide col-md-6 order-2 order-md-2 my-auto">
+         <img src="<?php echo base_url(); ?>public/assets/img/home.png" class="img-fluid" alt="">
        </div>
-       <div class="col-md-6 order-1 order-md-1 inicio_2" style="color: #F3A712;">
-         <h1 class="fr-inicio">Faça seu Saque FGTS em até 24 horas!</h1>
-         <button type="button" class="btn_simulacao_home btn btn-primary">Faça sua simulação</button>
+       <div class="col-md-6 order-1 order-md-1 inicio_2 my-auto" style="color: #F3A712;">
+         <h1>Antecipe até <span style="color: #F3A712;">cinco saques</span> de aniversário do seu FGTS</h1>
+         <p>Dinheiro da conta em até 24 horas!</p>
+         <button type="button" class="btn_simulacao_home btn btn-primary"><a href="fgts">Saber mais</a></button>
        </div>
      </div>
    </div>
@@ -82,23 +78,21 @@
        </div>
        <div class="clients-slider">
          <div class="swiper-wrapper align-items-center">
-           <div class="swiper-slide"><img src="<?php echo base_url(); ?>public/assets/img/clients/itau.png" class="img-fluid" alt="itau"></div>
-           <div class="swiper-slide"><img src="<?php echo base_url(); ?>public/assets/img/clients/bmg.png" class="img-fluid" alt="bmg"></div>
-           <div class="swiper-slide"><img src="<?php echo base_url(); ?>public/assets/img/clients/cetelem.png" class="img-fluid" alt="cetelem"></div>
-           <div class="swiper-slide"><img src="<?php echo base_url(); ?>public/assets/img/clients/ole.png" class="img-fluid" alt="ole"></div>
-           <div class="swiper-slide"><img src="<?php echo base_url(); ?>public/assets/img/clients/c6.png" class="img-fluid" alt="c6"></div>
-           <div class="swiper-slide"><img src="<?php echo base_url(); ?>public/assets/img/clients/santander.png" class="img-fluid" alt="santander"></div>
-           <div class="swiper-slide"><img src="<?php echo base_url(); ?>public/assets/img/clients/mercantil.png" class="img-fluid" alt="mercantil"></div>
-           <div class="swiper-slide"><img src="<?php echo base_url(); ?>public/assets/img/clients/pan.png" class="img-fluid" alt="pan"></div>
+           <div class="swiper-slide"><img src="<?php echo base_url(); ?>public/assets/img/parceiros/itau.png" class="img-fluid" alt="itau"></div>
+           <div class="swiper-slide"><img src="<?php echo base_url(); ?>public/assets/img/parceiros/bmg.png" class="img-fluid" alt="bmg"></div>
+           <div class="swiper-slide"><img src="<?php echo base_url(); ?>public/assets/img/parceiros/cetelem.png" class="img-fluid" alt="cetelem"></div>
+           <div class="swiper-slide"><img src="<?php echo base_url(); ?>public/assets/img/parceiros/ole.png" class="img-fluid" alt="ole"></div>
+           <div class="swiper-slide"><img src="<?php echo base_url(); ?>public/assets/img/parceiros/c6.png" class="img-fluid" alt="c6"></div>
+           <div class="swiper-slide"><img src="<?php echo base_url(); ?>public/assets/img/parceiros/mercantil.png" class="img-fluid" alt="mercantil"></div>
+           <div class="swiper-slide"><img src="<?php echo base_url(); ?>public/assets/img/parceiros/pan.png" class="img-fluid" alt="pan"></div>
          </div>
          <!-- =======     <div class="swiper-pagination"></div>  ======= -->
        </div>
      </div>
    </section>
    <!-- ======= Pricing Section ======= -->
-   <section class="pricing section-bg" data-aos="fade-up">
+   <section class="pricing" data-aos="fade-up">
      <div class="container">
-
        <div class="section-title">
          <h2>Contratos</h2>
          <p>Veja aqui alguns dos contratos que trabalhamos.</p>
@@ -108,7 +102,6 @@
 
          <div class="col-lg-4 box">
            <h3>Cartão consignado</h3>
-           <!--  <h4>$0<span>per month</span></h4> -->
            <ul>
              <li><i class="bx bx-check"></i> Cartão internacional</li>
              <li><i class="bx bx-check"></i> Sem consulta no SPC ou Serasa</li>
@@ -133,7 +126,6 @@
 
          <div class="col-lg-4 box">
            <h3>Saque Aniversário FGTS</h3>
-           <!-- <h4>$49<span>per month</span></h4> -->
            <ul>
              <li><i class="bx bx-check"></i> Não precisa ter uma conta ativa no FGTS</li>
              <li><i class="bx bx-check"></i> O dinheiro é depositado até 24h</li>
