@@ -9,16 +9,17 @@
    <div class="container ini">
      <div class="row">
        <div class="finance mobile-hide col-md-6 order-2 order-md-2">
-         <img src="<?php echo base_url(); ?>public/assets/img/svg/finance.svg" class="img-fluid" alt="">
+         <img style="whidth: 700px;" src="<?php echo base_url(); ?>public/assets/img/4.png" class="img-fluid" alt="">
        </div>
-       <div class="col-md-6 order-1 order-md-1 inicio_2 my-auto" style="color: #F3A712;">
-         <h1 class="fr-inicio">A solução que você precisa!</h1>
+       <div class="col-md-6 order-1 order-md-1 inicio_2" style="color: #F3A712;">
+         <h1 class="fr-inicio">Faça seu Saque FGTS em até 24 horas!</h1>
+         <button type="button" class="btn_simulacao_home btn btn-primary">Faça sua simulação</button>
        </div>
      </div>
    </div>
-   <svg id="svg-inicio" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1400.64 1268.08">
+   <!--  <svg id="svg-inicio" data-name="Camada 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1400.64 1268.08">
      <path id="Forma_1" data-name="Forma 1" class="cls-2" d="M0,946.08c49.88,45.72,150.37,124.42,295.44,151,176.66,32.41,321.65-30.36,388.8-60.48,229.56-103,256.6-236.28,477.36-308.88,98.6-32.42,185.55-35.78,238.48-34.56q.29,287.4.56,574.8H0Z" transform="translate(0)" />
-   </svg>
+   </svg> -->
  </section>
  <!-- End Hero No Slider Sectio -->
  <main id="main">
@@ -221,8 +222,8 @@
      </div>
    </section>
    <a href="https://api.whatsapp.com/send?phone=551236005816&text=Ol%C3%A1!" class="float" target="_blank">
-        <i class="bx bxl-whatsapp my-float"></i>
-    </a>
+     <i class="bx bxl-whatsapp my-float"></i>
+   </a>
    <!-- End Features Section -->
    <!-- ======= Why Us Section ========
      <section class="why-us section-bg" data-aos="fade-up" date-aos-delay="200">

@@ -9,6 +9,25 @@
     <meta content="A solução que você precisa, a LugeCred Empréstimos é uma empresa do ramo financeiro que trabalha atendendo todo o Brasil, com contratos totalmente digitais e a menor taxa de juros do mercado" name="description">
     <meta content="Empréstimo, Consignado, Obter empréstimo, Aponsentado, Beneficio, Dinheiro" name="keywords">
 
+    <!-- Google Tag Manager -->
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                'gtm.start': new Date().getTime(),
+                event: 'gtm.js'
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != 'dataLayer' ? '&l=' + l : '';
+            j.async = true;
+            j.src =
+                'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, 'script', 'dataLayer', 'GTM-PNGN3QG');
+    </script>
+    <!-- End Google Tag Manager -->
+
     <!-- Favicons -->
     <link rel="apple-touch-icon" sizes="57x57" href="<?php echo base_url(); ?>public/assets/img/favicon/apple-icon-57x57.png">
     <link rel="apple-touch-icon" sizes="60x60" href="<?php echo base_url(); ?>public/assets/img/favicon//apple-icon-60x60.png">
@@ -48,12 +67,16 @@
 
 <body>
 
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-PNGN3QG" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+
     <!-- ======= Header ======= -->
     <header id="header" class="fixed-top">
         <div class="container">
             <div class="logo float-left my-auto ml-2" id="logo">
                 <a href="home"><img id="image" src="<?php echo base_url(); ?>public/assets/img/logo/lugecred.png" alt="Logo LugeCred" class="img-fluid my-auto"></a>
-                
+
             </div>
             <nav class="nav-menu float-right d-none d-lg-block my-auto" id="menu" style="color: black;">
                 <ul>

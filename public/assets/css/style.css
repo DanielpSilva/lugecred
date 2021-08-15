@@ -317,7 +317,7 @@ h6,
 
 #hero-no-slider {
     width: 100%;
-    height: 100vh;
+    height: 70vh;
     overflow: hidden;
     position: relative;
     text-align: center;
@@ -330,15 +330,6 @@ h6,
     width: 100vw;
     position: absolute;
     z-index: 1;
-}
-
-.cls-1 {
-    fill: #fff;
-}
-
-.cls-2 {
-    fill: #140152;
-    ;
 }
 
 #hero-no-slider h2 {
@@ -365,6 +356,18 @@ h6,
 .inicio_2 {
     color: #F3A712;
     text-align: left;
+}
+
+.btn_simulacao_home {
+    border-radius: 50px;
+    background-color: #140152;
+    color: #F3A712;
+    border: none;
+}
+
+.btn_simulacao_home:hover {
+    background-color: #F3A712;
+    color: #140152;
 }
 
 
