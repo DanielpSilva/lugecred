@@ -156,23 +156,18 @@
         </button>
       </div>
       <div class="modal-body">
-        <form id="contato-fgts" action="<?php echo base_url(); ?>public/assets/vendor/php-email-form-fgts/contact.php" method="post" role="form" class="php-email-form-fgts fgts">
-          <div class="form-row">
-            <div class="col-md-6 form-group">
-              <input type="text" id="nome" name="name" class="form-control" id="name" placeholder="Seu nome" data-rule="minlen:4" data-msg="Seu nome deve conter no mínimo 4 caracteres" />
-              <div class="validate"></div>
-            </div>
-            <div class="col-md-6 form-group">
-              <input class="form-control" id="telefone" name="telefone" data-rule="required" data-msg="O campo telefone é obrigatório" placeholder="Seu telefone (Whatsapp)"></input>
-              <div class="validate"></div>
-            </div>
-            <div class="col-md-12 form-group">
-              <input class="form-control" id="email" name="email" data-rule="required" data-msg="O campo email é obrigatório" placeholder="Seu e-mail"></input>
-              <div class="validate"></div>
-            </div>
-          </div>
-          <button class="btn_simulacao btn btn-primary" style="background-color: #140152;" type="submit" href="simulacao"><a style="color: #fff;" href="https://bit.ly/linkmodalfgts">Solicitar</a></button>
-          <button class="btn_simulacao btn btn-primary" type="submit" href="simulacao">Entenda o passo a passo</button>
+        <form action="https://formsubmit.co/contato@lugecred.com.br" method="POST" class="form col-12">
+          <label style="line-height: 1px; margin-bottom: 0.5rem;" for="name">Nome</label>
+          <input class="form-control" placeholder="Seu nome" type="text" name="name" id="name" required />
+          <label style="line-height: 1px; margin-bottom: 0.5rem;" for="email">E-mail</label>
+          <input class="form-control" placeholder="Seu e-mail" type="email" name="email" id="email" required />
+          <label style="line-height: 1px; margin-bottom: 0.5rem;" for="phone">Telefone</label>
+          <input class="form-control" placeholder="Seu telefone" name="phone" id="phone" required></input>
+          <input type = "hidden" name = "_ subject" value = "Contato site - FGTS" />
+          <input type = "hidden" name = "_ template" value = "table" />
+          <input type="hidden" name="_captcha" value="false" />
+          <input type="hidden" name="_next" value="https://api.whatsapp.com/send?phone=551236005816&text=Acabei%20de%20solicitar%20a%20simula%C3%A7%C3%A3o%20do%20meu%20sague%20FGTS%20no%20site%2C%20o%20que%20fa%C3%A7o%20agora%3F" />
+          <button class="my-1 btn_simulacao btn btn-primary" style="background-color: #140152; width: 100%; " type="submit">Solicitar</button>
         </form>
       </div>
       <div class="modal-footer">
@@ -182,6 +177,5 @@
 </div>
 <!-- Modal com formulário --->
 <a class="float-simulacao" target="_blank">
-<button type="button" class="btn_simulacao btn" data-toggle="modal" data-target="#exampleModal">Simulação</button>
+  <button type="button" class="btn_simulacao btn" data-toggle="modal" data-target="#exampleModal">Simulação</button>
 </a>
-

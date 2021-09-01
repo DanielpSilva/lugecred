@@ -80,7 +80,7 @@
             </div>
             <nav class="nav-menu float-right d-none d-lg-block my-auto" id="menu" style="color: black;">
                 <ul>
-                    <li class="active"><a href="home">Início</a></li>>
+                    <li class="active"><a href="home">Início</a></li>
                     <li><a href="sobre">Sobre nós</a></li>
                     <li><a href="certificacoes">Certificações</a></li>
                     <li><a href="blog">Blog</a></li>

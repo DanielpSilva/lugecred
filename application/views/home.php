@@ -8,7 +8,7 @@
        </div>
        <div class="col-md-6 order-1 order-md-1 inicio_2 my-auto" style="color: #F3A712;">
          <h1>Antecipe até <span style="color: #F3A712;">cinco saques</span> de aniversário do seu FGTS</h1>
-         <p>Dinheiro da conta em até 24 horas!</p>
+         <p>Dinheiro da conta em até 48 horas!</p>
          <button type="button" class="btn_simulacao_home btn btn-primary"><a href="fgts">Saber mais</a></button>
        </div>
      </div>
