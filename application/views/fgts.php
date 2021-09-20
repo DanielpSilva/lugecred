@@ -1,96 +1,119 @@
-<div class="info_ctt container-fluid mt-5" id="fgts-home">
+<section id="home-fgts" class="home-fgts" style="position: relative;">
   <div class="container">
-    <div class="section-title">
-      <h2>Empréstimo com garantia FGTS</h2>
-      <p>O saque aniversário é uma opção oferecida ao trabalhador, em alternativa à sistemática de
-        Saque por Rescisão de contrato de trabalho, que permite a retirada de parte saldo do seu FGTS, anualmente, no mês do seu aniversário</p>
-    </div>
     <div class="row">
-      <div class="col-md-6 my-auto">
-        <img src="<?php echo base_url(); ?>public/assets/img/svg/fgts.svg" class="img-fluid" alt="FGTS">
+      <div class="mobile-hide col-md-6 order-2 order-md-2 my-auto">
+        <div class="form-fgts align-items-center align-content-center text-center">
+          <h1>Faça já sua simulação</h1>
+          <form action="https://formsubmit.co/contato@lugecred.com.br" method="POST" class="form col-12 mt-5">
+            <input class="form-control" placeholder="Seu nome" type="text" name="name" id="name" required />
+            <input class="form-control" placeholder="Seu e-mail" type="email" name="email" id="email" required />
+            <input class="form-control" placeholder="Seu telefone" name="phone" id="phone" required></input>
+            <input type="hidden" name="_ subject" value="Contato site - FGTS" />
+            <input type="hidden" name="_ template" value="table" />
+            <input type="hidden" name="_captcha" value="false" />
+            <input type="hidden" name="_next" value="https://api.whatsapp.com/send?phone=551236005816&text=Acabei%20de%20solicitar%20a%20simula%C3%A7%C3%A3o%20do%20meu%20sague%20FGTS%20no%20site%2C%20o%20que%20fa%C3%A7o%20agora%3F" />
+            <button class="my-1 btn_simulacao btn btn-primary" style="background-color: #140152; width: 100%; " type="submit">Solicitar</button>
+          </form>
+        </div>
       </div>
-      <div class="col-md-5 pt-4">
-        <p class="text-justify">Para você ter direito ao saque aniversário, é necessário fazer a opção por essa modalidade nos canais digitais no fundo de garantia</p>
-        <p>
-          O trabalhador que fizer a opção poderá sacar um percentual do saldo do FGTS, acrescido de uma parcela adicional, anualmente.
-        </p>
-        <p>
-          O Banco Safra em Parceria com a CAIXA ECONOMICA FEDERAL, está liberando para você sacar até 5 vezes seu SAQUE ANIVERSÁRIO
-        </p>
-        <ul>
-          <li>Contratação 100% digital
-          </li>
-          <li>Contas ativas e inativas.
-          </li>
-          <li>Sem descontos mensais.
-          </li>
-          <li>Dinheiro na conta em até 24h.
-          </li>
-        </ul>
+      <div class="col-md-6 order-1 order-md-1 my-auto div-fgts" style="color: #fff;">
+        <h1>Antecipe seu <span style="color: #F3A712;">saque FGTS</span></h1>
+        <p><span class="typed" data-typed-items="Dinheiro na conta em até 48h, Sem consulta SPC ou Serasa, Contas ativas, Contas inativas"></span></p>
       </div>
     </div>
   </div>
-</div>
+</section>
+<!-- Mockup -->
+<section class="container-fluid info-fgts" id="info-fgts">
+  <div class="container">
+    <div class="row">
+
+      <div class="img-fgts col-md-4 col-lg-4 col-12 order-2 order-md-2 my-auto ">
+        <img src="<?php echo base_url(); ?>public/assets/img/girl-fgts.png" alt="">
+      </div>
+      <div class="col-md-6 col-lg-8 col- order-1 order-md-1 my-auto div-fgts" style="width: 100%;">
+        <h1 class="mt-5">Dinheiro na conta em 3 passos</h1>
+        <div class="fgts-items" data-aos="zoom-in" data-aos-delay="100">
+          <h4>
+            <div class="icon">1</div>Entre em contato e informe seus dados
+          </h4>
+        </div>
+        <div class="fgts-items" data-aos="zoom-in" data-aos-delay="200">
+          <h4>
+            <div class="icon">2</div>Siga a instruções de nossos especialistas
+          </h4>
+        </div>
+        <div class="fgts-items" data-aos="zoom-in" data-aos-delay="300">
+          <h4>
+            <div class="icon">3</div>Aguarde o dinheiro cair na conta em até 48h!
+          </h4>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 <!-- Chamada para simulação -->
-<div class="info_ctt container-fluid simulacao" id="contratar">
+<section class="container-fluid info-fgts" id="info-fgts">
   <div class="container">
-    <div class="text-center">
-      <h2>Como contratar</h2>
-      <p>Você trabalhador, pode optar pelo saque aniversário do FGTS e sacar até 5 anos!</p>
-    </div>
-    <div class="row">
-      <div class="col-md-6 col-6 my-auto justify-content-center">
-        <img src="<?php echo base_url(); ?>public/assets/img/svg/contrate.svg" style="width: 300px;" class="img-fluid" alt="Como contratar">
+    <div class="row my-5">
+      <div class="col-md-6 col-lg-3 d-flex align-items-stretch box-info-fgts">
+        <div class="icon-box icon-box-blue">
+          <div class="icon"><i class="bx bx-check"></i></div>
+          <h4 class="title"><a href="">Valor mínimo em conta para antecipar de R$400</a></h4>
+        </div>
       </div>
-      <div class="col-md-5 pt-4 col-6">
-        <p>
-          Você pode contratar a antecipação do saque aniversário FGTS de onde estiver, na palma da sua mão ou no seu computador,
-          de forma totalmente digital!
-        </p>
-        <p>
-          A caixa bloqueia o saldo na conta do FGTS para fins de garantia,
-          bloqueio esse que pode chegar ao valor total do fundo a depender
-          da contratação. E libera o valor da antecipação em sua conta no dia seguinte
-        </p>
-        <button type="button" class="btn_simulacao btn btn-primary" data-toggle="modal" data-target="#exampleModal">Faça sua simulação</button>
+      <div class="col-md-6 col-lg-3 d-flex align-items-stretch box-info-fgts">
+        <div class="icon-box icon-box-blue">
+          <div class="icon"><i class="bx bx-check"></i></div>
+          <h4 class="title"><a href="">Dinheiro na sua conta em até 48h!</a></h4>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 d-flex align-items-stretch box-info-fgts">
+        <div class="icon-box icon-box-blue">
+          <div class="icon"><i class="bx bx-check"></i></div>
+          <h4 class="title"><a href="">Funcionários com as contas ativas e inativas</a></h4>
+        </div>
+      </div>
+      <div class="col-md-6 col-lg-3 d-flex align-items-stretch box-info-fgts">
+        <div class="icon-box icon-box-blue">
+          <div class="icon"><i class="bx bx-check"></i></div>
+          <h4 class="title"><a href="">Acompanhamento online</a></h4>
+        </div>
       </div>
     </div>
   </div>
-</div>
-<!-- Vantagens -->
-<div class="info_ctt container-fluid" id="fgts-vantagens">
+</section>
+
+<!--
+
+<section class="cta-fgts text-center" id="cta-fgts">
   <div class="container">
-    <div class="text-center">
-      <h2>Vantagens</h2>
-    </div>
+    <h1 class="title mt-5">Um direito que te ajuda a pagar as contas e realizar sonhos !!!</h1>
+  </div>
+  <div class="container container-box">
     <div class="row">
-      <div class="col-md-6 my-auto">
-        <img src="<?php echo base_url(); ?>public/assets/img/svg/vantagens.svg" class="img-fluid" alt="Vantagens">
+      <div class="col-md-6 text-left mx-auto">
+        <div class="my-5 ml-2">
+          <h2>O empréstimo com garantia de saque aniversário é direito de todos que tem o FGTS ativo e inativo, inclusive negativados. </h2>
+          <h2>Podendo antecipar até 7 parcelas sem boletos e pagamentos mensais !!!</h2>
+        </div>
       </div>
-      <div class="col-md-5 pt-4">
-        <h3>Veja as vantagens dessa nova oportunidade que nós estamos proporcionando para você!</h3>
-        <ul class="mt-3">
-          <li> Economia
-          </li>
-          <li> Taxa de juros atrativa
-          </li>
-          <li> Praticidade
-          </li>
-          <li> Pagamento automático e em parcela única
-          </li>
-          <li> Rapidez
-          </li>
-          <li> Dinheiro na conta no dia seguinte à contratação
-          </li>
-          <li> Conveniência
-          </li>
-          <li> Não pesa no orçamento pois não tem prestação mensal
-          </li>
-        </ul>
+      <div class="col-md-6 text-left">
+        <h1 class="mt-5" style="color: #fff; text-align:left;">Direito exclusivos para:</h1>
+       <ul>
+         <li><i class='bx bx-check'></i> Maiores de 18 anos</li>
+         <li><i class='bx bx-check'></i> CPF regular na receita federal</li>
+         <li><i class='bx bx-check'></i> Optar pelo saque aniversário</li>
+         <li><i class='bx bx-check'></i> Saldo mínimo disponível de R$800,00 para o empréstimo</li>
+       </ul>
+       <button class="btn_simulacao btn btn-primary" style="background-color: #F3A712; width: 100%;"><a href="https://api.whatsapp.com/send?phone=551236005816&text=Acabei%20de%20solicitar%20a%20simula%C3%A7%C3%A3o%20do%20meu%20sague%20FGTS%20no%20site%2C%20o%20que%20fa%C3%A7o%20agora%3F" style="color: #fff;">Solicitar</a></button>
       </div>
     </div>
   </div>
-</div>
+</section>
+          -->
+
+
 <!-- FAQ -->
 <section id="faq" class="faq section-bg">
   <div class="container">
@@ -163,8 +186,8 @@
           <input class="form-control" placeholder="Seu e-mail" type="email" name="email" id="email" required />
           <label style="line-height: 1px; margin-bottom: 0.5rem;" for="phone">Telefone</label>
           <input class="form-control" placeholder="Seu telefone" name="phone" id="phone" required></input>
-          <input type = "hidden" name = "_ subject" value = "Contato site - FGTS" />
-          <input type = "hidden" name = "_ template" value = "table" />
+          <input type="hidden" name="_ subject" value="Contato site - FGTS" />
+          <input type="hidden" name="_ template" value="table" />
           <input type="hidden" name="_captcha" value="false" />
           <input type="hidden" name="_next" value="https://api.whatsapp.com/send?phone=551236005816&text=Acabei%20de%20solicitar%20a%20simula%C3%A7%C3%A3o%20do%20meu%20sague%20FGTS%20no%20site%2C%20o%20que%20fa%C3%A7o%20agora%3F" />
           <button class="my-1 btn_simulacao btn btn-primary" style="background-color: #140152; width: 100%; " type="submit">Solicitar</button>
@@ -177,5 +200,5 @@
 </div>
 <!-- Modal com formulário --->
 <a class="float-simulacao" target="_blank">
-  <button type="button" class="btn_simulacao btn" data-toggle="modal" data-target="#exampleModal">Simulação</button>
+  <button type="button" class="btn_simulacao btn" data-toggle="modal" data-target="#exampleModal"><i class='bx bxl-whatsapp p-1'></i>Whatsapp</button>
 </a>
