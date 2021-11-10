@@ -5,6 +5,6 @@ class Fgts extends CI_Controller {
 
 	public function index()
 	{
-		$this->template->show('fgts.php');
+		$this->load->view('fgts.php');
 	}
 }

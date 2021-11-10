@@ -1,0 +1,362 @@
+.styles_main__1Jdh4 {
+    background-color: #fff
+}
+
+.styles_container_header_fgts__27Wa6 {
+    max-width: 1180px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap
+}
+
+.styles_container_header_fgts__27Wa6 .styles_content_header_fgts__qQ-U9 {
+    flex: 1 1 450px;
+    padding: 1rem;
+    display: none;
+}
+
+.styles_container_header_fgts__27Wa6 .styles_content_header_fgts__qQ-U9 h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem
+}
+
+.styles_container_header_fgts__27Wa6 .styles_content_header_fgts__qQ-U9 .styles_description_header_fgts__WuHsm {
+    max-width: 500px;
+    margin-bottom: 3rem
+}
+
+.styles_container_header_fgts__27Wa6 .styles_content_header_fgts__qQ-U9 a {
+    background-color: #d22688;
+    border-radius: 25px;
+    box-shadow: 1px 3px 10px rgba(210, 38, 136, .53);
+    -moz-box-shadow: 1px 3px 10px rgba(210, 38, 136, .53);
+    -webkit-box-shadow: 1px 3px 10px rgba(210, 38, 136, .53);
+    color: #fff;
+    cursor: pointer;
+    display: table;
+    font-size: 1rem;
+    font-weight: 700;
+    margin: 2rem 0;
+    padding: .7rem 2rem
+}
+
+.styles_container_header_fgts__27Wa6 .styles_card_header_fgts__3S8ea {
+    flex: 1 1 400px;
+    position: relative
+}
+
+.styles_container_header_fgts__27Wa6 .styles_card_header_fgts__3S8ea .styles_shape_calculator_fgts__1tY5q {
+    position: absolute;
+    top: -3rem;
+    left: 0;
+    right: 0;
+    width: 100%;
+    display: none;
+}
+
+.styles_container_header_fgts__27Wa6 .styles_card_header_fgts__3S8ea .styles_container_card__3gjz9 {
+    margin: 0 auto;
+    width: 75%
+}
+
+.styles_container_what_is_birthday_loan__2TFrV {
+    max-width: 700px;
+    margin: 4rem auto 0;
+    padding: 1rem;
+    display: none;
+}
+
+.styles_container_what_is_birthday_loan__2TFrV h2 {
+    margin: 0 auto 1rem;
+    max-width: 450px;
+    text-align: center
+}
+
+.styles_container_what_is_birthday_loan__2TFrV h2 span {
+    color: #d22688
+}
+
+.styles_container_what_is_birthday_loan__2TFrV .styles_description_what_is_birthday_loan__2h6kr {
+    margin: 0 auto 2rem;
+    max-width: 500px;
+    text-align: center
+}
+
+.styles_container_what_is_birthday_loan__2TFrV .styles_row_what_is_birthday_loan__22IaV {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1rem;
+    flex-wrap: wrap
+}
+
+.styles_container_what_is_birthday_loan__2TFrV .styles_row_what_is_birthday_loan__22IaV .styles_img_what_is_birthday_loan__2TOZx {
+    flex: 1 1
+}
+
+.styles_container_what_is_birthday_loan__2TFrV .styles_row_what_is_birthday_loan__22IaV .styles_img_what_is_birthday_loan__2TOZx img {
+    width: 155px;
+    height: 98px;
+    margin-bottom: 1rem
+}
+
+.styles_container_what_is_birthday_loan__2TFrV .styles_row_what_is_birthday_loan__22IaV .styles_content_what_is_birthday_loan__3BmJu {
+    flex: 1 1 500px
+}
+
+.styles_container_what_is_birthday_loan__2TFrV .styles_row_what_is_birthday_loan__22IaV .styles_content_what_is_birthday_loan__3BmJu p {
+    padding-left: .5rem;
+    padding-top: 1rem
+}
+
+.styles_container_what_is_birthday_loan__2TFrV .styles_content_video__2rKL8 {
+    max-width: 500px;
+    margin: 3rem auto
+}
+
+.styles_container_what_is_birthday_loan__2TFrV .styles_content_video__2rKL8 .styles_video__2w8BQ {
+    margin: 4rem auto 0;
+    width: 100%;
+    min-height: 280px;
+    display: block;
+    border-radius: 20px;
+    box-shadow: 1px 3px 10px rgba(0, 0, 0, .2)
+}
+
+.styles_container_what_is_birthday_loan__2TFrV a {
+    background-color: #d22688;
+    border-radius: 25px;
+    box-shadow: 1px 3px 10px rgba(210, 38, 136, .53);
+    -moz-box-shadow: 1px 3px 10px rgba(210, 38, 136, .53);
+    -webkit-box-shadow: 1px 3px 10px rgba(210, 38, 136, .53);
+    color: #fff;
+    cursor: pointer;
+    display: table;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 2rem auto 4rem;
+    padding: .7rem 2rem
+}
+
+.styles_container_know_all_conditions__SSq28 {
+    max-width: 1180px;
+    margin: 4rem auto 0;
+    padding: 1rem;
+    display: none;
+}
+
+.styles_container_know_all_conditions__SSq28 h2 {
+    margin: 0 auto 1rem;
+    max-width: 550px;
+    text-align: center
+}
+
+.styles_container_know_all_conditions__SSq28 h2 span {
+    color: #d22688
+}
+
+.styles_container_know_all_conditions__SSq28 .styles_row_know_all_conditions__irYBp {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    margin: 4rem auto;
+    grid-gap: 1rem;
+    gap: 1rem
+}
+
+.styles_container_know_all_conditions__SSq28 .styles_row_know_all_conditions__irYBp .styles_img_know_all_conditions__smmAJ {
+    flex: 1 1 450px
+}
+
+.styles_container_know_all_conditions__SSq28 .styles_row_know_all_conditions__irYBp .styles_img_know_all_conditions__smmAJ img {
+    display: block;
+    margin: 0 auto;
+    width: 80%
+}
+
+.styles_container_know_all_conditions__SSq28 .styles_row_know_all_conditions__irYBp .styles_content_know_all_conditions__1Rck8 {
+    flex: 1 1 450px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-self: stretch
+}
+
+.styles_container_what_are_advantages__Cm2Ek {
+    max-width: 900px;
+    margin: 2rem auto 4rem;
+    padding: 1rem;
+    display: none;
+}
+
+.styles_container_what_are_advantages__Cm2Ek h2 {
+    margin: 0 auto 2rem;
+    max-width: 500px;
+    text-align: center
+}
+
+.styles_container_what_are_advantages__Cm2Ek h2 span {
+    color: #d22688
+}
+
+.styles_container_what_are_advantages__Cm2Ek .styles_row_what_are_advantages__2CWgv {
+    display: flex;
+    justify-content: center;
+    align-items: baseline;
+    flex-wrap: wrap;
+    grid-gap: 1rem;
+    gap: 1rem
+}
+
+.styles_container_what_are_advantages__Cm2Ek .styles_row_what_are_advantages__2CWgv .styles_col_what_are_advantages__vPc10 {
+    flex: 1 1 250px;
+    text-align: center;
+    padding: 2rem 1rem 1rem
+}
+
+.styles_container_what_are_advantages__Cm2Ek .styles_row_what_are_advantages__2CWgv .styles_col_what_are_advantages__vPc10 img {
+    width: 60px;
+    margin-bottom: 1rem
+}
+
+.styles_container_what_are_advantages__Cm2Ek a {
+    background-color: #d22688;
+    border-radius: 25px;
+    box-shadow: 1px 3px 10px rgba(210, 38, 136, .53);
+    -moz-box-shadow: 1px 3px 10px rgba(210, 38, 136, .53);
+    -webkit-box-shadow: 1px 3px 10px rgba(210, 38, 136, .53);
+    color: #fff;
+    cursor: pointer;
+    display: table;
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin: 4rem auto 2rem;
+    padding: .7rem 2rem
+}
+
+.styles_container_how_to_authorize__hiKCA {
+    max-width: 1180px;
+    margin: 2rem auto 4rem;
+    display: none;
+}
+
+.styles_container_how_to_authorize__hiKCA h2 {
+    text-align: center;
+    max-width: 400px;
+    margin: 0 auto 2rem;
+    padding: 0 1rem
+}
+
+.styles_container_how_to_authorize__hiKCA h2 span {
+    color: #d22688
+}
+
+.styles_container_how_to_authorize__hiKCA .styles_description_step__3X8cS {
+    text-align: center;
+    max-width: 500px;
+    margin: 0 auto 3rem;
+    padding: 1rem
+}
+
+.styles_container_how_to_authorize__hiKCA .styles_step_fgts_web__3PSiP img {
+    margin: 0 auto;
+    width: 80%;
+    display: block
+}
+
+.styles_container_how_to_authorize__hiKCA .styles_carousel_fgts__T-WXu {
+    display: none
+}
+
+.styles_container_common_questions__3-Pmx {
+    max-width: 1180px;
+    margin: 2rem auto;
+    display: none;
+    justify-items: center;
+    flex-wrap: wrap
+}
+
+.styles_container_common_questions__3-Pmx .styles_title_common_questions__2KUAK {
+    flex: 1 1 75px;
+    padding: 1rem
+}
+
+.styles_container_common_questions__3-Pmx .styles_title_common_questions__2KUAK h2 {
+    font-size: 1.75rem
+}
+
+.styles_container_common_questions__3-Pmx .styles_title_common_questions__2KUAK h2 span {
+    color: #d22688
+}
+
+.styles_container_common_questions__3-Pmx .styles_col_common_questions__3eYX5 {
+    flex: 1 1 700px
+}
+
+@media only screen and (max-width:600px) {
+    .styles_container_menu__U-alo img {
+        display: block;
+        margin: 0 auto
+    }
+    .styles_container_header_fgts__27Wa6 .styles_content_header_fgts__qQ-U9 h1 {
+        font-size: 1.75rem
+    }
+    .styles_container_header_fgts__27Wa6 .styles_content_header_fgts__qQ-U9 .styles_description_header_fgts__WuHsm {
+        margin-bottom: 2rem
+    }
+    .styles_container_header_fgts__27Wa6 .styles_card_header_fgts__3S8ea .styles_shape_calculator_fgts__1tY5q {
+        position: absolute;
+        top: -3rem;
+        left: 0;
+        right: 0;
+        width: 150%
+    }
+    .styles_container_header_fgts__27Wa6 .styles_card_header_fgts__3S8ea .styles_container_card__3gjz9 {
+        width: 90%
+    }
+    .styles_container_what_is_birthday_loan__2TFrV h2 {
+        margin-bottom: 2rem
+    }
+    .styles_container_what_is_birthday_loan__2TFrV .styles_description_what_is_birthday_loan__2h6kr {
+        margin-bottom: 3rem
+    }
+    .styles_container_what_is_birthday_loan__2TFrV .styles_row_what_is_birthday_loan__22IaV {
+        margin-bottom: 2rem
+    }
+    .styles_container_what_is_birthday_loan__2TFrV .styles_row_what_is_birthday_loan__22IaV .styles_img_what_is_birthday_loan__2TOZx {
+        flex: 1 1
+    }
+    .styles_container_what_is_birthday_loan__2TFrV .styles_row_what_is_birthday_loan__22IaV .styles_img_what_is_birthday_loan__2TOZx img {
+        width: 25%;
+        height: 100%;
+        display: block;
+        margin: 0 auto 1rem
+    }
+    .styles_container_what_is_birthday_loan__2TFrV .styles_row_what_is_birthday_loan__22IaV .styles_content_what_is_birthday_loan__3BmJu {
+        flex: 1 1 500px;
+        padding: 0 1rem;
+        text-align: center
+    }
+    .styles_container_what_is_birthday_loan__2TFrV .styles_row_what_is_birthday_loan__22IaV .styles_content_what_is_birthday_loan__3BmJu p {
+        padding-left: 0;
+        padding-top: 0
+    }
+    .styles_container_what_is_birthday_loan__2TFrV .styles_row_what_is_birthday_loan__22IaV .styles_content_what_is_birthday_loan__3BmJu p span {
+        color: #d22688;
+        font-weight: 700
+    }
+    .styles_container_know_all_conditions__SSq28 .styles_row_know_all_conditions__irYBp {
+        margin: 2rem auto 0
+    }
+    .styles_container_know_all_conditions__SSq28 .styles_row_know_all_conditions__irYBp .styles_img_know_all_conditions__smmAJ img {
+        width: 100%
+    }
+    .styles_container_how_to_authorize__hiKCA .styles_step_fgts_web__3PSiP {
+        display: none
+    }
+    .styles_container_how_to_authorize__hiKCA .styles_carousel_fgts__T-WXu {
+        display: block
+    }
+}

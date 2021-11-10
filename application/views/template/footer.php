@@ -18,11 +18,11 @@
                     <div class="col-lg-3 col-md-6 footer-contact">
                         <h4>Contate - nos</h4>
                         <p>
-                            Rua Santa Cruz <br> Caraguatatuba, São Paulo<br> Brasil <br><br>
+                            Praça Candito Mota, N°193, Sala 29 <br> Caraguatatuba, São Paulo<br> Brasil <br>
                             <strong>Telefone:</strong> (12) 3600 - 5816<br>
                             <strong>E-mail:</strong> suporte@lugecred.com.br<br>
+                            <strong>CNPJ:</strong> 38.263.956/0001-59<br>
                         </p>
-
                     </div>
 
                     <div class="col-lg-3 col-md-6 footer-info">
